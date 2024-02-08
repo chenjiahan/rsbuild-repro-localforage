@@ -1,3 +1,3 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import localforage from "localforage";
+
+console.log(localforage);
